@@ -1,0 +1,47 @@
+<?php
+
+/**
+ * @file
+ * Contains erasmus_subject_area_code.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function erasmus_subject_area_code_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the erasmus_subject_area_code module.
+    case 'help.page.erasmus_subject_area_code':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Erasmus Subject Area codes as select options') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Get ISCED codes.
+ *
+ * Get associative array of ISCED codes from a source file.
+ *
+ * @return array $options
+ */
+function erasmus_subject_area_code_get_values() {
+  $source_file = 'erasmus_subject_area_codes.inc';
+  include_once $source_file;
+
+  $options = [];
+  foreach ($erasmus_subject_area_codes as $top => $array) {
+    $group = [];
+    foreach ($array as $key => $value) {
+      $group[$key] = $value;
+    }
+    $options[$top] = $group;
+  }
+
+  return $options;
+}

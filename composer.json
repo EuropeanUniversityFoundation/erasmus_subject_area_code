@@ -1,0 +1,9 @@
+{
+    "name": "euf/erasmus_subject_area_code",
+    "type": "drupal-module",
+    "description": "Erasmus Subject Area codes as select options",
+    "keywords": [
+    ],
+    "homepage": "https://github.com/EuropeanUniversityFoundation/erasmus_subject_area_code",
+    "minimum-stability": "dev"
+}

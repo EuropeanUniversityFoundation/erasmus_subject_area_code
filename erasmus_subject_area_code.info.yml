@@ -1,0 +1,7 @@
+name: 'Erasmus Subject Area code field'
+type: module
+description: 'Erasmus Subject Area codes as select options'
+core: 8.x
+package: 'EWP'
+dependencies:
+  - options
