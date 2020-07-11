@@ -86,9 +86,9 @@ $erasmus_subject_area_codes = [
     '10.2' => '10.2 International Law',
     '10.3' => '10.3 Civil Law',
     '10.4' => '10.4 Criminal Law, Criminology',
-    '10.5' => '10.5 Constitutional / Public Law',
+    '10.5' => '10.5 Constitutional /Public Law',
     '10.6' => '10.6 Public Administration',
-    '10.7' => '10.7 European Community / EU Law',
+    '10.7' => '10.7 European Community/EU Law',
     '10.9' => '10.9 Others - Law',
   ],
   '11.0 Mathematics, Informatics' => [
@@ -130,7 +130,7 @@ $erasmus_subject_area_codes = [
   ],
   '15.0 Communication and Information Sciences' => [
     '15.1' => '15.1	Journalism',
-    '15.2' => '15.2 Radio / TV Broadcasting',
+    '15.2' => '15.2 Radio/TV Broadcasting',
     '15.3' => '15.3 Public Relations, Publicity, Advertising',
     '15.4' => '15.4 Library Science',
     '15.5' => '15.5 Documentation, Archiving',
