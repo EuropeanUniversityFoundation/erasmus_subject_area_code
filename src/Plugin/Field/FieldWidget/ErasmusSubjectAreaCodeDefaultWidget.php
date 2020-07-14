@@ -12,7 +12,7 @@ use Drupal\Core\Form\FormStateInterface;
  * @FieldWidget(
  *   id = "erasmus_subject_area_code_default",
  *   module = "erasmus_subject_area_code",
- *   label = @Translation("Erasmus Subject Area code select"),
+ *   label = @Translation("Select list"),
  *   field_types = {
  *     "erasmus_subject_area_code"
  *   }
