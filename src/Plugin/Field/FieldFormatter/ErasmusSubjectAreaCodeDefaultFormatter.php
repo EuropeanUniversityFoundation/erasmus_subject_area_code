@@ -12,7 +12,7 @@ use Drupal\Core\Form\OptGroup;
  *
  * @FieldFormatter(
  *   id = "erasmus_subject_area_code_default",
- *   label = @Translation("Erasmus Subject Area code formatter"),
+ *   label = @Translation("Default"),
  *   field_types = {
  *     "erasmus_subject_area_code"
  *   }
