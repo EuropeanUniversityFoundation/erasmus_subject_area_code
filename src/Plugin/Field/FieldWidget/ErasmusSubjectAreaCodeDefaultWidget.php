@@ -7,7 +7,7 @@ use Drupal\Core\Field\WidgetBase;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
- * Plugin implementation of the 'erasmus_subject_area_code_select' widget.
+ * Plugin implementation of the 'erasmus_subject_area_code_default' widget.
  *
  * @FieldWidget(
  *   id = "erasmus_subject_area_code_default",

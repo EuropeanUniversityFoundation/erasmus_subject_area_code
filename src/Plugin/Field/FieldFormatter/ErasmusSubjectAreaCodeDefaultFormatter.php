@@ -8,7 +8,7 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Form\OptGroup;
 
 /**
- * Plugin implementation of the 'erasmus_subject_area_code_formatter' formatter.
+ * Plugin implementation of the 'erasmus_subject_area_code_default' formatter.
  *
  * @FieldFormatter(
  *   id = "erasmus_subject_area_code_default",
