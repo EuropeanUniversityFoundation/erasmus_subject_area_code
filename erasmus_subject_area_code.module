@@ -24,9 +24,9 @@ function erasmus_subject_area_code_help($route_name, RouteMatchInterface $route_
 }
 
 /**
- * Get ISCED codes.
+ * Get Erasmus Subject Area codes.
  *
- * Get associative array of ISCED codes from a source file.
+ * Get associative array of Erasmus Subject Area codes from a source file.
  *
  * @return array $options
  */
