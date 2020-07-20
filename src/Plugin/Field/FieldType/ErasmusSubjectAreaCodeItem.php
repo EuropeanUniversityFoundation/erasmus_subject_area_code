@@ -13,7 +13,7 @@ use Drupal\Core\TypedData\DataDefinition;
  *   id = "erasmus_subject_area_code",
  *   label = @Translation("Erasmus Subject Area code"),
  *   description = @Translation("Erasmus Subject Area codes as select options"),
- *   category = @Translation("EWP"),
+ *   category = @Translation("EWP select options"),
  *   default_widget = "erasmus_subject_area_code_default",
  *   default_formatter = "erasmus_subject_area_code_default",
  * )
