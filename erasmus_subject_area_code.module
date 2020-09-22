@@ -32,7 +32,7 @@ function erasmus_subject_area_code_help($route_name, RouteMatchInterface $route_
  */
 function erasmus_subject_area_code_get_values() {
   $source_file = 'erasmus_subject_area_codes.inc';
-  include_once $source_file;
+  include $source_file;
 
   $options = [];
   foreach ($erasmus_subject_area_codes as $top => $array) {
