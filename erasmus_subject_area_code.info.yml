@@ -2,6 +2,7 @@ name: 'Erasmus Subject Area code field'
 type: module
 description: 'Erasmus Subject Area codes as select options'
 core: 8.x
+core_version_requirement: ^8 || ^9
 package: 'EWP'
 dependencies:
   - drupal:field
