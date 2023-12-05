@@ -1,9 +1,19 @@
 {
     "name": "euf/erasmus_subject_area_code",
     "type": "drupal-module",
-    "description": "Erasmus Subject Area codes as select options",
+    "description": "Provides a field type with Erasmus Subject Area codes as options.",
     "keywords": [
+        "Drupal",
+        "Field type"
     ],
     "homepage": "https://github.com/EuropeanUniversityFoundation/erasmus_subject_area_code",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Tiago Simões",
+            "email": "tiago.simoes@uni-foundation.eu",
+            "role": "Maintainer"
+        }
+    ],
     "minimum-stability": "dev"
 }
