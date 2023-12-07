@@ -7,6 +7,10 @@
         "Field type"
     ],
     "homepage": "https://github.com/EuropeanUniversityFoundation/erasmus_subject_area_code",
+    "support": {
+        "issues": "https://github.com/EuropeanUniversityFoundation/erasmus_subject_area_code/issues",
+        "source": "https://github.com/EuropeanUniversityFoundation/erasmus_subject_area_code"
+    },
     "license": "GPL-2.0-or-later",
     "authors": [
         {
