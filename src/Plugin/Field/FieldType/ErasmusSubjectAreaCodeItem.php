@@ -13,8 +13,11 @@ use Drupal\Core\TypedData\DataDefinition;
  * @FieldType(
  *   id = "erasmus_subject_area_code",
  *   label = @Translation("Erasmus Subject Area code"),
- *   description = @Translation("Erasmus Subject Area codes as select options"),
- *   category = 'selection_list',
+ *   description = {
+ *     @Translation("Values stored are predefined text values"),
+ *     @Translation("For example, '11.3' => '11.3 Informatics, Computer Science'"),
+ *   },
+ *   category = "selection_list",
  *   default_widget = "erasmus_subject_area_code_default",
  *   default_formatter = "erasmus_subject_area_code_default",
  * )
