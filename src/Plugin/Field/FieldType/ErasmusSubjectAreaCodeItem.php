@@ -4,6 +4,7 @@ namespace Drupal\erasmus_subject_area_code\Plugin\Field\FieldType;
 
 use Drupal\Core\Field\FieldItemBase;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
+use Drupal\Core\StringTranslation\TranslatableMarkup;
 use Drupal\Core\TypedData\DataDefinition;
 
 /**
@@ -13,7 +14,7 @@ use Drupal\Core\TypedData\DataDefinition;
  *   id = "erasmus_subject_area_code",
  *   label = @Translation("Erasmus Subject Area code"),
  *   description = @Translation("Erasmus Subject Area codes as select options"),
- *   category = @Translation("EWP select options"),
+ *   category = selection_list,
  *   default_widget = "erasmus_subject_area_code_default",
  *   default_formatter = "erasmus_subject_area_code_default",
  * )
@@ -25,7 +26,7 @@ class ErasmusSubjectAreaCodeItem extends FieldItemBase {
    */
   public static function propertyDefinitions(FieldStorageDefinitionInterface $field_definition) {
     $properties['value'] = DataDefinition::create('string')
-      ->setLabel(t('Erasmus Subject Area code'));
+      ->setLabel(new TranslatableMarkup('Erasmus Subject Area code'));
 
     return $properties;
   }
