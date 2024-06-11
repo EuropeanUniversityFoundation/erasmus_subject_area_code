@@ -5,6 +5,7 @@
  * Contains erasmus_subject_area_code.module.
  */
 
+use Drupal\erasmus_subject_area_code\ErasmusSubjectAreaCodes;
 use Drupal\Core\Routing\RouteMatchInterface;
 
 /**
@@ -31,8 +32,7 @@ function erasmus_subject_area_code_help($route_name, RouteMatchInterface $route_
  * @return array $options
  */
 function erasmus_subject_area_code_get_values() {
-  $source_file = 'erasmus_subject_area_codes.inc';
-  include $source_file;
+  $erasmus_subject_area_codes = ErasmusSubjectAreaCodes::codes();
 
   $options = [];
   foreach ($erasmus_subject_area_codes as $top => $array) {
