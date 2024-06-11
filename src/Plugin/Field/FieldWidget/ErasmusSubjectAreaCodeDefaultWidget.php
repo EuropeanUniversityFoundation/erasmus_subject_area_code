@@ -26,12 +26,12 @@ class ErasmusSubjectAreaCodeDefaultWidget extends WidgetBase {
   public function formElement(FieldItemListInterface $items, $delta, array $element, array &$form, FormStateInterface $form_state) {
     $erasmus_subject_area_codes = \erasmus_subject_area_code_get_values();
     $element['value'] = $element + [
-        '#type' => 'select',
-        '#options' => $erasmus_subject_area_codes,
-        '#empty_value' => '',
-        '#default_value' => isset($items[$delta]->value) ? $items[$delta]->value : NULL,
-        '#description' => t('Select the Erasmus Subject Area code'),
-      ];
+      '#type' => 'select',
+      '#options' => $erasmus_subject_area_codes,
+      '#empty_value' => '',
+      '#default_value' => isset($items[$delta]->value) ? $items[$delta]->value : NULL,
+      '#description' => $this->t('Select the Erasmus Subject Area code'),
+    ];
 
     return $element;
   }
